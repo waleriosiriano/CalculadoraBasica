@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+
+<!-- Layout principal com AnchorPane -->
+<AnchorPane xmlns:fx="http://javafx.com/fxml" fx:controller="controller.CalculadoraController" stylesheets="@style.css">
+    <!-- Contêiner vertical (VBox) para organizar os elementos -->
+    <VBox spacing="10" alignment="CENTER">
+        <padding>
+            <!-- Margens internas (padding) para espaçamento -->
+            <Insets top="20" right="20" bottom="20" left="20"/>
+        </padding>
+
+        <!-- Campo para exibir o resultado -->
+        <TextField fx:id="display" text="0" editable="false" styleClass="display"/>
+
+        <!-- Grade de botões (GridPane) com espaçamento e alinhamento -->
+        <GridPane hgap="10" vgap="10" alignment="CENTER">
+            <!-- Configurações de largura das colunas -->
+            <columnConstraints>
+                <ColumnConstraints percentWidth="25"/>
+                <ColumnConstraints percentWidth="25"/>
+                <ColumnConstraints percentWidth="25"/>
+                <ColumnConstraints percentWidth="25"/>
+            </columnConstraints>
+            <!-- Configurações de altura das linhas -->
+            <rowConstraints>
+                <RowConstraints percentHeight="20"/>
+                <RowConstraints percentHeight="20"/>
+                <RowConstraints percentHeight="20"/>
+                <RowConstraints percentHeight="20"/>
+                <RowConstraints percentHeight="20"/>
+            </rowConstraints>
+
+            <!-- Botões da calculadora -->
+
+            <!-- Primeira linha -->
+            <Button text="C" onAction="#handleClear" styleClass="button" GridPane.columnIndex="0" GridPane.rowIndex="0"/>
+            <Button text="÷" onAction="#handleOperador" styleClass="button" GridPane.columnIndex="3" GridPane.rowIndex="0"/>
+
+            <!-- Segunda linha -->
+            <Button text="7" onAction="#handleNumero" styleClass="button" GridPane.columnIndex="0" GridPane.rowIndex="1"/>
+            <Button text="8" onAction="#handleNumero" styleClass="button" GridPane.columnIndex="1" GridPane.rowIndex="1"/>
+            <Button text="9" onAction="#handleNumero" styleClass="button" GridPane.columnIndex="2" GridPane.rowIndex="1"/>
+            <Button text="×" onAction="#handleOperador" styleClass="button" GridPane.columnIndex="3" GridPane.rowIndex="1"/>
+
+            <!-- Terceira linha -->
+            <Button text="4" onAction="#handleNumero" styleClass="button" GridPane.columnIndex="0" GridPane.rowIndex="2"/>
+            <Button text="5" onAction="#handleNumero" styleClass="button" GridPane.columnIndex="1" GridPane.rowIndex="2"/>
+            <Button text="6" onAction="#handleNumero" styleClass="button" GridPane.columnIndex="2" GridPane.rowIndex="2"/>
+            <Button text="-" onAction="#handleOperador" styleClass="button" GridPane.columnIndex="3" GridPane.rowIndex="2"/>
+
+            <!-- Quarta linha -->
+            <Button text="1" onAction="#handleNumero" styleClass="button" GridPane.columnIndex="0" GridPane.rowIndex="3"/>
+            <Button text="2" onAction="#handleNumero" styleClass="button" GridPane.columnIndex="1" GridPane.rowIndex="3"/>
+            <Button text="3" onAction="#handleNumero" styleClass="button" GridPane.columnIndex="2" GridPane.rowIndex="3"/>
+            <Button text="+" onAction="#handleOperador" styleClass="button" GridPane.columnIndex="3" GridPane.rowIndex="3"/>
+
+            <!-- Última linha -->
+            <Button text="0" onAction="#handleNumero" styleClass="button" GridPane.columnIndex="0" GridPane.rowIndex="4" GridPane.columnSpan="2"/>
+            <Button text="." onAction="#handleNumero" styleClass="button" GridPane.columnIndex="2" GridPane.rowIndex="4"/>
+            <Button text="=" onAction="#handleResultado" styleClass="button" GridPane.columnIndex="3" GridPane.rowIndex="4"/>
+        </GridPane>
+    </VBox>
+</AnchorPane>

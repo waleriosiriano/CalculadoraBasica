@@ -1,0 +1,21 @@
+.button {
+    -fx-font-size: 18px;
+    -fx-background-radius: 10;
+    -fx-background-color: linear-gradient(to bottom, #e0e0e0, #c0c0c0);
+    -fx-border-color: lightgray;
+    -fx-border-width: 1px;
+    -fx-padding: 10px;
+    -fx-text-fill: #333333;
+}
+
+.display {
+    -fx-font-size: 24px;
+    -fx-alignment: center-right;
+    -fx-background-color: #ffffff;
+    -fx-border-color: #dcdcdc;
+    -fx-padding: 15px;
+}
+
+.root {
+    -fx-background-color: linear-gradient(to bottom, #f7f7f7, #dcdcdc);
+}
