@@ -4,7 +4,7 @@ Este é um projeto de uma calculadora básica desenvolvida em Java 17 utilizando
 
 A aplicação realiza operações matemáticas simples, como adição, subtração, multiplicação e divisão, com um layout limpo, e fácil de usar.
 
-![Image](https://github.com/user-attachments/assets/718f77d7-73ca-4e62-a3a4-435ecd23abc9)
+![Image](https://github.com/user-attachments/assets/dc3993b4-51f3-40ad-88f7-60cf159cf076)
 
 Funcionalidades
 Operações suportadas:
