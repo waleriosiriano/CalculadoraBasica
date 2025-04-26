@@ -4,8 +4,6 @@ Este é um projeto de uma calculadora básica desenvolvida em Java 17 utilizando
 
 A aplicação realiza operações matemáticas simples, como adição, subtração, multiplicação e divisão, com um layout limpo, e fácil de usar.
 
-![Image](https://github.com/user-attachments/assets/dc3993b4-51f3-40ad-88f7-60cf159cf076)
-
 Funcionalidades
 Operações suportadas:
 
@@ -27,6 +25,9 @@ Java 17: Linguagem de programação principal.
 JavaFX: Framework utilizado para a construção da interface gráfica.
 
 CSS: Estilização do layout para um design atrativo.
+___________________________________________
+
+![Image](https://github.com/user-attachments/assets/dc3993b4-51f3-40ad-88f7-60cf159cf076)
 
 
 
