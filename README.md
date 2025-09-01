@@ -41,7 +41,7 @@ Execute a classe principal para iniciar a aplicação
 
 ![Image](https://github.com/user-attachments/assets/dc3993b4-51f3-40ad-88f7-60cf159cf076)
 
-🎯 Objetivo do Projeto
+🎯 Objetivo do Projeto:
 Este projeto foi desenvolvido para praticar conceitos de programação orientada a objetos, manipulação de eventos no JavaFX e criação de interfaces gráficas modernas para aplicações desktop.
 
 
